@@ -13,7 +13,6 @@ def create_app(debug=False):
     register_blueprints(app)
     return app
 
-
 app = create_app(debug=True)
 
 if __name__ == '__main__':
